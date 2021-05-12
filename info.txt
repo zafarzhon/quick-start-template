@@ -13,5 +13,5 @@ git config --global user.name odilovzafarzhon
 git config --global user.email odilovzafarzhon@gmail.com
 git init
 ///git remove .....  подключение к удаленному репозиторию
-git push -u origin main
+git push -u origin master
 git clone .... клонирование
