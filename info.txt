@@ -12,3 +12,6 @@ npm install --save-dev gulp-rename
 git config --global user.name odilovzafarzhon
 git config --global user.email odilovzafarzhon@gmail.com
 git init
+///git remove .....  подключение к удаленному репозиторию
+git push -u origin main
+git clone .... клонирование
