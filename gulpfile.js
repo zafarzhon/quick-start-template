@@ -32,6 +32,9 @@ gulp.task('minifyJs', function() {
     return pipeline(
         gulp.src('app/js/*.js'),
         uglify(),
+        rename({
+            suffix: '.min'
+        }),
         gulp.dest('public/js/')
     );
 });
