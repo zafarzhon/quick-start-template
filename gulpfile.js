@@ -11,7 +11,7 @@ const browserSync = require('browser-sync').create();
 
 
 gulp.task('sassToCss', () => {
-    return gulp.src('app/sass/*.sass')
+    return gulp.src('app/sass/main.sass')
         .pipe(sass({
             errorLogToConsole: true
         }))
@@ -28,7 +28,7 @@ gulp.task('sassToCss', () => {
 });
 
 
-gulp.task('minifyJs', function() {
+gulp.task('minifyJs', function () {
     return pipeline(
         gulp.src('app/js/*.js'),
         uglify(),
@@ -62,7 +62,7 @@ gulp.task('watchFiles', () => {
 });
 
 
-gulp.task('watch', async function() {
+gulp.task('watch', async function () {
     return gulp.series('watchFiles');
 });
 
