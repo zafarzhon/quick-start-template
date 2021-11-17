@@ -10,7 +10,7 @@ npm install --save-dev gulp-sass
 npm install --save-dev gulp-rename
 
 git config --global user.name odilovzafarzhon
-git config --global user.email odilovzafarzhon@gmail.com
+git config --global user.email <<??>>
 git init
 ///git remove .....  подключение к удаленному репозиторию
 git push -u origin master
